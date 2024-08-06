@@ -773,11 +773,18 @@ section {
 
 footer {
 	padding: 140px 0 40px;
-	background: url('../img/footer.jpg');
+	background: url('../img/footer.png');
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-color: #555;
 }
-
+@media (max-width: 767px) {
+    footer {
+        padding: 80px 0 20px; /* Adjust padding for mobile screens */
+        background: url('../img/footer-mobile.png'); /* Different image for mobile */
+        background-size: cover; /* Ensure image covers the area */
+    }
+}
 footer .trial-button {
 	overflow: hidden !important;
 	margin: 40px 0;
