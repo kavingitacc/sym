@@ -686,13 +686,16 @@ section {
 	left: 25%;
 	display: inline-block;
 	width: 50%;
-	height: 200px;
+	height: 400px;
 	padding: 50px 40px;
 	background: #bbb;
 	-webkit-transition: -webkit-transform 0.3s, background-image 0.3s, opacity 0.3s;
 	transition: transform 0.3s, background-image 0.3s, opacity 0.3s;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+}
+.pricings .pricing .box-second-second,.pricings .pricing .box-main-second{
+	height: 200px;
 }
 @media (max-width: 576px) {
 	.pricings .pricing .box-main,.pricings .pricing .box-main .active {
