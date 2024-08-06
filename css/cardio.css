@@ -1106,6 +1106,9 @@ footer .social-footer li:hover a {
 	font-family: "Wittgenstein", serif;
 	font-style: italic;
 }
+.light h1{
+	font-size: 5vw;
+}
 .light-span{
 	font-size: 8vw;
 }
@@ -1151,8 +1154,14 @@ footer .social-footer li:hover a {
 	margin-top: 150px;
 }
 @media (max-width:576px) {
-	.light-span{font-size: 12vw;
+	.light-span{font-size: 15vw;
 
+	}
+	.light{
+		font-weight: 900;
+	}
+	.light h1{
+		font-size: 15vw;
 	}
 	
 }
