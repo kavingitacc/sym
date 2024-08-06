@@ -396,7 +396,6 @@ section {
 	.intro-tables .intro-table {height: 600px;}
 	.info-box{
 		margin: auto;
-		width: min-content;
 	}
 	
 }
